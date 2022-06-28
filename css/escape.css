@@ -1,0 +1,130 @@
+@font-face {
+    font-family: cuba;
+    src: url(/font/Cubano\ Font\ Family/Cubano);
+}
+@font-face { font-family: brandlight;
+    src: url(/font/brandon-grotesque-light-58a8a4b38001d.otf);
+}
+@font-face {
+    font-family: brandbold;
+    src: url(/font/brandon-grotesque-black-58a8a3e824392.otf);
+}
+.clear{clear: both;}
+*{box-sizing: border-box;
+}
+.container{width: 940px; margin: 0px auto;}
+ /* header section */
+header .city{position: relative;}
+header .city img{width: 100%; height: 620px;}
+header .brand{position: absolute; top: 50px; width: 450px;}
+header .brand .logo{float: left;}
+header .brand .logo img{float: left; margin-left: 20px;}
+
+header .brand .esp{float: left; color:#d6d5d5; padding-left: 10px; padding-top: 10px; letter-spacing: 2px;}
+
+header nav{position: absolute; top: 60px; left: 800px;  width: 490px;  }
+header nav .menu{}
+header nav ul{}
+header nav ul li{ display: inline; padding-left: 30px; }
+header nav ul li a{ text-decoration: none; color: #d6d5d5;}
+
+header nav ul li a:hover{background-color: black; padding: 10px;}
+
+header p{position: absolute; top: 220px; font-size: 32px; color: #ffffff; left: 540px; font-family:brandlight ;}
+header h1{position: absolute; top: 300px; color: #ffffff; left: 500px; font-size: 66px;}
+header input{position: absolute; top: 443px; left: 700px; padding-top: 20px; padding-left: 65px; padding-bottom: 20px; padding-right: 65px; opacity: 0.3; border: 3px solid #ffffff;}
+header input:hover{color: red; background-color: black;
+opacity: 1; border-radius: 31px; border: none;}
+
+/* header section :end */
+
+section .web{ width: 460px; float: left;}
+section .web h2{ font-size: 60px; padding-top: 95px;}
+section .web h2 span{font-family: brandligh;}
+section .web p{padding-top: 55px;}
+
+section .trii{ width: 460px; float: left;}
+section .trii img{padding-top: 100px; margin-left: 100px;}
+
+section .identity{float: left; width: 400px;}
+section .identity img{float: left; padding-top: 170px;}
+section .branding{float: left; width: 500px;}
+section .branding h2{padding-top: 160px; font-size: 60px; }
+section .branding p{padding-top: 55px; float: left;}
+
+/* ............................................................*/
+
+section .course{float:left; width: 470px; padding-top: 200px;}
+section .course .subcourse{ float: left; padding-top: 50px;}
+section .course .subcourse .man{float: left; width: 100px;}
+section .course .subcourse .man img{}
+section .course .subcourse .content{float: left; width: 330px;}
+section .course .subcourse .content h3{margin-top: 10px; margin-bottom: 10px; font-size: 22px;}
+section .course .subcourse .content p{font-size: 18px; color: #777777;}
+section .newcourse{float: left; width: 470px;padding-top: 250px;}
+section .newcourse .web{float: left; width: 100px;}
+section .newcourse .web img{float: left;}
+section .newcourse .con h3{ font-size: 22px; margin-bottom: 10px;padding-left: 30px;}
+section .newcourse .con p{font-size: 18px; color: #777777;}
+section .newside {padding-top: 60px;}
+
+/* ............................................. */
+
+section .awesome{padding-top: 80px;}
+section .heading{}
+section .heading h1{text-align: center; font-size: 60px;padding-top: 100px; padding-bottom: 15px;}
+section .awesome .heading p{text-align: center; color: #777777; font-size: 22px;}
+
+section .awesome .jamie{width: 220px; height: 220px; border-radius: 50%; border: 1px solid; float: left; margin-top: 50px;}
+section .awesome .jamie img{ width: 220px; height: 220px; border-radius: 50%;}
+section .awesome .feedback{border: 1px solid; float: left; width: 600px; height: 170px; margin-left: 40px; margin-top: 70px; margin-right: 40px;}
+section .awesome .feedback p{text-align: center; padding-top: 20px; color: #777777; font-size: 26px;}
+section .awesome .feedback h4{ text-align: center; padding-top: 20px; color: #7690c5; font-size: 20px;}
+
+/* ............................................. */
+
+.addvertise{padding-top: 140px; padding-bottom: 60px;}
+.addvertise .ado{ display: flex;  justify-content: space-evenly;}
+
+/* ................................................... */
+
+.amazing{ background-color: black;}
+.amazing h4{ font-size: 60px; text-align: center; color: white; padding-top: 80px;}
+.amazing p{ text-align: center; color: #777777; font-size: 22px; padding-top: 10px;}
+
+.amazing .client{ padding-top: 70px;}
+.amazing .client .cli{ width: 220px; height: 220px; border-radius: 50%;}
+.amazing .client .cli img{
+    width: 220px; height: 220px; border-radius: 50%;
+}
+
+/* .amazing .client{float: left;} */
+.amazing .client1{float: left; width: 313px;}
+
+.amazing .client  h3{color: white; margin-left: 50px; padding-top: 20px;}
+.amazing .client  h5{color: white; margin-left: 80px; padding-top: 10px; padding-bottom: 20px;}
+
+.amazing .client1 .twitter{ width: 35px; height: 35px; border-radius: 50%;  float: left; margin-left: 30px;
+
+}
+.amazing .client1 .twitter img{
+    width: 35px; height: 35px;
+}
+.amazing .para{}
+.amazing .para p{ margin-top: 30px; padding-bottom: 90px;}
+
+/* ..............................................................  */
+
+footer .form{ background-color: #7690c5; }
+footer .form .hello{ float: left; width: 470px;}
+footer .form .hello h2{ font-size: 60px; padding-top: 80px; color: white; font-family:brandbold ;}
+footer .form .hello p{ padding-top: 15px; color: white; font-size: 18px; padding-bottom: 45px;}
+footer .hello .con{ float: left; }
+footer .hello .con img{height: 30px; width: 20px; float: left; margin-top: 10px;}
+footer .hello .con p{float: left; padding-left: 10px; margin-left: 10px; margin-right: 50px;}
+
+
+footer .form .reges{ padding-top: 80px;}
+footer .form .reges input{ padding-left: 200px; margin-left: 30px; padding: 7px; width: 250px;  }
+ 
+footer .form .reges textarea{margin-left: 30px; margin-top: 20px;}
